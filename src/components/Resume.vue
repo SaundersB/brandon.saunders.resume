@@ -6,11 +6,11 @@
             <skills/>
         </div>
         <div class="col">
-<!--
-                <Name>
-                <Experience>
-                <Education>
--->
+            <div>
+                Brandon Saunders
+            </div>
+            <experience/>
+            <education/>
         </div>
     </div>
 </template>
@@ -19,13 +19,17 @@
     import ProfileImage from './ProfileImage';
     import Contact from './Contact';
     import Skills from './Skills';
+    import Experience from './Experience';
+    import Education from './Education';
 
     export default {
         name: 'Resume',
         components: {
+            'education': Education,
             'skills': Skills,
             'contact': Contact,
-            'profile-image': ProfileImage
+            'profile-image': ProfileImage,
+            'experience': Experience
         }
     };
 </script>
