@@ -1,16 +1,14 @@
 <template>
     <div class="container white text-left">
-        <div class="text-center section-headline">
+        <div class="text-center generic-padding section-headline">
             Skills
         </div>
-        <div class="item last">
-            <div class="skill" v-for="skill in this.skills" :key="skill.name">
-                <div class="right">
-                    <span>{{skill.name}}&nbsp;</span>
-                    <div class="progress">
-                        <div class="determinate" :style="'width: '+skill.level+'%;'">
-                            <i class="fa fa-circle"></i>
-                        </div>
+        <div class="skill" v-for="skill in this.skills" :key="skill.name">
+            <div class="right">
+                <span>{{skill.name}}&nbsp;</span>
+                <div class="progress">
+                    <div class="determinate" :style="'width: '+skill.level+'%;'">
+                        <i class="fa fa-circle"></i>
                     </div>
                 </div>
             </div>

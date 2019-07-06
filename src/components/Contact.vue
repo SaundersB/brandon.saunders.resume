@@ -1,6 +1,6 @@
 <template>
     <div class="container white text-left">
-        <div class="text-center section-headline">
+        <div class="text-center generic-padding section-headline">
             Contact
         </div>
         <div class="col generic-row-padding">

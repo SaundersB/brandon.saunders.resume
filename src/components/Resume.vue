@@ -1,7 +1,7 @@
 <template>
     <div class="row">
-        <div class="col-3 secondary-background">
-            <profile-image/>
+        <div class="col-3 secondary-background no-padding">
+            <profile-image />
             <contact/>
             <skills/>
         </div>

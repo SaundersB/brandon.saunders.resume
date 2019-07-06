@@ -6,6 +6,17 @@
     background-color: #16151c;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.no-padding {
+    padding: 0;
+}
+
 .generic-padding {
     padding: 15px
 }
@@ -67,7 +78,6 @@
             border-radius: 2px;
             margin: 0.5rem 0 1rem;
             overflow: visible;
-            margin-bottom: 10px;
 
             .determinate {
                 background-color: #78909c;

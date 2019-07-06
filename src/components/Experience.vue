@@ -12,6 +12,15 @@
 <script>
     export default {
         name: 'Experience',
+        data: function() {
+            return {
+                experience: [
+                    {
+
+                    }
+                ]
+            }
+        }
     };
 </script>
 
