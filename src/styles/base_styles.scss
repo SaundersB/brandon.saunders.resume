@@ -10,6 +10,12 @@
     padding: 15px
 }
 
+.generic-row-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -22,45 +28,60 @@
     color: white;
 }
 
+.section-headline {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 10pt;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 0.54);
+}
+
 .skill {
-    clear:both;
-    width:97%;
-    padding-top:4px;
+    clear: both;
+    width: 97%;
+    padding-top: 4px;
+
     .left {
-        float:left;
-        width:10%;
-        padding-top:3px;
+        float: left;
+        width: 10%;
+        padding-top: 3px;
+
         i:nth-child(2) {
-            float:left;
-            padding-top:4px;
+            float: left;
+            padding-top: 4px;
         }
     }
+
     .right {
-        float:right;
-        width:93%;
+        float: right;
+        width: 93%;
+
         .progress {
-            float:left;
-            position:relative;
-            height:2px;
-            display:block;
-            width:95%;
-            background-color:rgba(255,255,255,0.19);
-            border-radius:2px;
-            margin:0.5rem 0 1rem;
-            overflow:visible;
-            margin-bottom:10px;
+            float: left;
+            position: relative;
+            height: 2px;
+            display: block;
+            width: 95%;
+            background-color: rgba(255, 255, 255, 0.19);
+            border-radius: 2px;
+            margin: 0.5rem 0 1rem;
+            overflow: visible;
+            margin-bottom: 10px;
+
             .determinate {
-                background-color:#78909c;
-                position:absolute;
-                top:0;
-                bottom:0;
+                background-color: #78909c;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+
                 .fa, .material-icons {
-                    font-size:13px;
-                    position:absolute;
-                    top:-4px;
-                    right:-2px;
-                    margin-left:50%;
-                    color:white;
+                    font-size: 13px;
+                    position: absolute;
+                    top: -4px;
+                    right: -2px;
+                    margin-left: 50%;
+                    color: white;
                 }
             }
         }
@@ -68,6 +89,6 @@
 }
 
 .item.last .text {
-    border-bottom-style:none;
-    padding-bottom:0;
+    border-bottom-style: none;
+    padding-bottom: 0;
 }

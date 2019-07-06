@@ -1,6 +1,6 @@
 <template>
     <div class="container white text-left">
-        <div class="text-center">
+        <div class="text-center section-headline">
             Skills
         </div>
         <div class="item last">

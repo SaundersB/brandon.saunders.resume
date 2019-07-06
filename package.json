@@ -12,6 +12,9 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.25",
     "core-js": "^2.6.5",
+    "material-design-icons": "^3.0.1",
+    "material-icons": "^0.3.1",
+    "npm-font-open-sans": "^1.1.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
