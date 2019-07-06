@@ -1,12 +1,12 @@
 <template>
-    <div class="container row">
-        <div class="col">
+    <div class="row">
+        <div class="col-3 secondary-background">
             <profile-image/>
             <contact/>
             <skills/>
         </div>
-        <div class="col">
-            <div>
+        <div class="col-5">
+            <div class="white">
                 Brandon Saunders
             </div>
             <experience/>
