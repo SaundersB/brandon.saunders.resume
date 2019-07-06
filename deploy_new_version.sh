@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 npm run build
-sudo vue-cli-ghpages
+gh-pages -b master -d dist
