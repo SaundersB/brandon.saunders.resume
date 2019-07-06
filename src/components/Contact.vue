@@ -7,10 +7,10 @@
             626-991-9323
         </div>
         <div class="col generic-row-padding">
-            Los Angeles, CA
+            <a href="mailto:BrandonNSaunders@gmail.com?Subject=Your%20Resume">BrandonNSaunders@gmail.com</a>
         </div>
         <div class="col generic-row-padding">
-            <a href="mailto:BrandonNSaunders@gmail.com?Subject=Your%20Resume">BrandonNSaunders@gmail.com</a>
+            Los Angeles, CA
         </div>
         <div class="col generic-row-padding">
             <a href="https://saundersb.github.io/brandon.saunders.portfolio/">Portfolio Site</a>
