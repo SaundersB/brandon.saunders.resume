@@ -6,8 +6,8 @@
             <skills/>
         </div>
         <div class="col-5">
-            <div class="white">
-                Brandon Saunders
+            <div class="title">
+                <h2>Brandon Saunders</h2>
             </div>
             <experience/>
             <education/>
